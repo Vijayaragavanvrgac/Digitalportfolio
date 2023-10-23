@@ -1,0 +1,178 @@
+#read-more-button {
+background-color: #0074D9;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+text-transform: uppercase; /* Convert text to uppercase */
+font-weight: bold; /* Make the text bold */
+transition: background-color 0.3s;
+display: inline-block; /* Display the button inline */
+margin-top: 15px; /* Add spacing below the button */
+}
+
+#read-more-button:hover {
+background-color: #0056b3;
+}
+/* Style the "Submit" button */
+#contact-form button[type="submit"] {
+background-color: #0074D9;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+text-transform: uppercase; /* Convert text to uppercase */
+font-weight: bold; /* Make the text bold */
+transition: background-color 0.3s;
+}
+
+#contact-form button[type="submit"]:hover {
+background-color: #0056b3;
+}
+
+/* Style the "Contact Me" section */
+#contact-container {
+background-color: #E6E6E6; /* Background color */
+padding: 20px;
+border-radius: 5px; /* Rounded corners */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+#contact h2 {
+font-size: 24px; /* Header text size */
+margin-bottom: 15px; /* Space below the header */
+color: #0074D9; /* Header text color */
+}
+
+#contact-form {
+display: flex;
+flex-direction: column;
+}
+
+#contact-form input, #contact-form textarea {
+margin: 10px 0;
+padding: 10px;
+border: 1px solid #ccc; /* Border for input fields */
+border-radius: 5px; /* Rounded input fields */
+}
+
+#contact-form textarea {
+min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+#contact-form button[type="submit"] {
+background-color: #0074D9;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px; /* Rounded button */
+}
+
+#contact-form button[type="submit"]:hover {
+background-color: #0056b3; /* Hover effect */
+}
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+margin: 0;
+padding: 0;
+}
+
+/* Style the circular image */
+.circular-image {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+
+/* Style the header */
+header {
+background-color: #333;
+color: #fff;
+text-align: right;
+padding: 20px;
+}
+
+/* Style the containers */
+.container {
+width: 80%;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+background-color: #f9f9f9;
+margin-bottom: 20px;
+}
+
+/* Style individual containers */
+#bio-data {
+background-color: #E1E6F0;
+}
+
+#about {
+background-color: #F0E1E1;
+}
+
+#skills {
+background-color: #E1F0E1;
+}
+
+#contact {
+background-color: #E6E6E6;
+}
+
+/* Style the menu */
+.menu {
+background-color: #0074D9; /* Blue background color */
+color: #fff;;
+text-align: center;
+padding: 15px 0;
+}
+
+.menu ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+.menu li {
+margin: 0;
+padding: 0;
+}
+
+.menu a {
+text-decoration: none;
+color: #fff;
+font-size: 16px;
+padding: 10px 20px;
+transition: background-color 0.3s;
+border: 1px solid #fff;
+border-radius: 5px;
+margin: 0 10px;
+}
+
+.menu a:hover {
+background-color: #0056b3;
+}
+
+/* Additional Text (hidden by default) */
+#additional-text {
+display: none;
+}
+
+/* Style the submit button */
+#contact-form button {
+background-color: #0074D9;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+#contact-form button:hover {
+background-color: #0056b3;
+}
+ 
